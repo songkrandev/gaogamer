@@ -16,8 +16,7 @@ function Login({ onLogin }) {
   // Ping server health to give clearer feedback
   useEffect(() => {
     const ping = async () => {
-      try {
-        // await fetch((process.env.REACT_APP_API_URL || 'http://localhost:5000/api') + '/health');
+      try {        
         await fetch((process.env.REACT_APP_API_URL || 'https://songkrandev.pythonanywhere.com/api') + '/health');        
         setServerOk(true);
       } catch {

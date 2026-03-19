@@ -1,0 +1,39 @@
+{
+  "senior_users": [
+    {
+      "full_name": "user01",
+      "address": "มีหวัง",
+      "phone": "ทดสอบ",
+      "password": "$2b$12$zRC8Wa6ap4AxN6W7dFIL8OJuO4woQbmqcLkcfw2542f4fm/AxmFtG",
+      "plain_password": "000",
+      "created_at": "2026-02-23T17:31:49.137128",
+      "created_by": "ADM001",
+      "user_id": "SU563",
+      "updated_at": "2026-03-18T13:41:24.397671",
+      "email": "user01@gaogamer.com"
+    },
+    {
+      "full_name": "user02",
+      "address": "stest",
+      "phone": "08123456789",
+      "password": "$2b$12$dNQCW3WcT/Vr1OIdM5oPbeeHM8DZXupul6UpCHe5pUFoIdhXuVsNi",
+      "plain_password": "user123",
+      "created_at": "2026-02-24T17:25:25.670676",
+      "created_by": "ADM001",
+      "user_id": "SU361",
+      "email": "user02@gaogamer.com",
+      "updated_at": "2026-02-24T17:37:05.950227"
+    },
+    {
+      "full_name": "user03",
+      "email": "user03@gaogamer.com",
+      "address": "ทดสอบ",
+      "phone": "08123456781",
+      "password": "$2b$12$ZzLCjbS5gC59.AHac2RzCe2O75d3Lmia1AOLujuoRUG9WJry4I1cO",
+      "plain_password": "111",
+      "created_at": "2026-03-18T14:10:23.866179",
+      "created_by": "ADM001",
+      "user_id": "SU064"
+    }
+  ]
+}

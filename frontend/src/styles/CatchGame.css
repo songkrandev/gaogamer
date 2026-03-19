@@ -1,0 +1,169 @@
+.catch-game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--background-light);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.game-header-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-accent) 100%);
+  color: white;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.question-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.question-section h3, 
+.answer-section h3 {
+  color: var(--primary-dark);
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.instruction-text {
+  font-size: 20px;
+  color: var(--text-light);
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.card-display {
+  background: white;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  cursor: pointer;
+  border: 4px solid transparent;
+}
+
+.question-card {
+  width: 180px;
+  height: 240px;
+  margin: 0 auto;
+  cursor: default;
+  border-color: var(--primary-accent);
+}
+
+.question-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.answer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.answer-card {
+  width: 140px;
+  height: 190px;
+  border-color: #ddd;
+}
+
+.answer-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary-accent);
+  box-shadow: 0 8px 25px rgba(107, 144, 113, 0.2);
+}
+
+.answer-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.back-menu-btn,
+.menu-btn,
+.play-again-btn {
+  padding: 15px 30px;
+  font-size: 22px;
+  font-weight: 700;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+}
+
+.back-menu-btn {
+  background-color: var(--card-icon-bg);
+  color: var(--text-dark);
+  margin-top: 20px;
+}
+
+.back-menu-btn:hover {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.game-result {
+  text-align: center;
+  padding: 40px;
+}
+
+.game-result h2 {
+  font-size: 48px;
+  color: var(--primary-dark);
+  margin-bottom: 20px;
+}
+
+.final-score {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: var(--text-dark);
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.play-again-btn {
+  background-color: var(--primary-dark);
+  color: white;
+}
+
+.menu-btn {
+  background-color: var(--primary-accent);
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .answer-card {
+    width: 110px;
+    height: 150px;
+  }
+  
+  .question-card {
+    width: 150px;
+    height: 200px;
+  }
+  
+  .game-header-info {
+    font-size: 20px;
+  }
+}

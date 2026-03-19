@@ -1,0 +1,348 @@
+.wheel-game {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  background: var(--background-light);
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  touch-action: manipulation;
+}
+
+.wheel-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  align-items: center;
+}
+
+.wheel-board {
+  background: #fff;
+  border-radius: 12px;
+  padding: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.wheel-deck {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.wheel-card-back {
+  width: 86px;
+  height: 120px;
+  border-radius: 10px;
+  border: 2px solid var(--primary-dark);
+  background: none;
+  background-image: url('../assets/wheel/wheel_card.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+}
+
+.wheel-slots {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(110px, 1fr));
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.wheel-slot {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+}
+
+.wheel-slot-label {
+  font-size: 14px;
+  color: var(--text-light);
+  font-weight: 700;
+}
+
+.wheel-slot-box {
+  width: 110px;
+  height: 130px;
+  border-radius: 10px;
+  border: 3px solid rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 56px;
+  font-weight: 900;
+  color: var(--text-dark);
+  background: #fff;
+  user-select: none;
+}
+
+.wheel-slot-box.back {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wheel-fly-card {
+  position: fixed;
+  z-index: 3000;
+  border-radius: 14px;
+  border: 3px solid var(--primary-dark);
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.22);
+  pointer-events: none;
+  transition:
+    left 420ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    top 420ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    width 420ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    height 420ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    transform 420ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  transform: scale(1);
+}
+
+.wheel-fly-card.to {
+  transform: scale(1.02);
+}
+
+.wheel-slot-box.drop {
+  border-color: var(--primary-dark);
+  box-shadow: inset 0 0 0 2px rgba(15, 42, 29, 0.05);
+  cursor: pointer;
+}
+
+.wheel-slot-box.drop.filled {
+  border-color: var(--primary-accent);
+  background: #fff;
+}
+
+.wheel-number {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: baseline;
+  font-size: 18px;
+  color: var(--text-dark);
+  flex-wrap: wrap;
+}
+
+.wheel-number strong {
+  font-size: 28px;
+  color: var(--primary-dark);
+}
+
+.wheel-last,
+.wheel-turns {
+  font-size: 14px;
+  color: var(--text-light);
+  font-weight: 700;
+}
+
+.wheel-center {
+  margin: 14px 0;
+  padding: 14px;
+  border-radius: 12px;
+  background: rgba(15, 42, 29, 0.06);
+  border: 1px solid rgba(15, 42, 29, 0.08);
+}
+
+.wheel-message {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--text-dark);
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.wheel-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.wheel-btn {
+  border: none;
+  border-radius: 12px;
+  padding: 12px 18px;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+  background: var(--card-icon-bg);
+  color: var(--text-dark);
+}
+
+.wheel-btn.primary {
+  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-accent) 100%);
+  color: #fff;
+}
+
+.wheel-btn.danger {
+  background: #ffebee;
+  color: #d32f2f;
+}
+
+.wheel-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.wheel-current {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.wheel-card-face {
+  width: 120px;
+  height: 150px;
+  border-radius: 12px;
+  border: 3px solid var(--primary-dark);
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+  position: relative;
+  overflow: hidden;
+}
+
+.wheel-card-face.disabled {
+  opacity: 0.45;
+}
+
+.wheel-card-digit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 72px;
+  font-weight: 900;
+  color: #111;
+  background: transparent;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+.wheel-draw {
+  width: 140px;
+  height: 190px;
+  perspective: 900px;
+  cursor: grab;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wheel-draw.disabled {
+  cursor: default;
+}
+
+.wheel-draw-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 520ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.wheel-draw.flipped .wheel-draw-inner {
+  transform: rotateY(180deg);
+}
+
+.wheel-draw-face {
+  position: absolute;
+  inset: 0;
+  border-radius: 14px;
+  border: 3px solid var(--primary-dark);
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.wheel-draw-front {
+  transform: rotateY(180deg);
+  background-image: none;
+}
+
+.wheel-draw:not(.revealed) .wheel-card-digit {
+  opacity: 0;
+}
+
+.wheel-draw.revealed .wheel-card-digit {
+  opacity: 1;
+  transition: opacity 120ms ease;
+}
+
+.wheel-hint {
+  font-size: 13px;
+  color: var(--text-light);
+  font-weight: 700;
+  text-align: center;
+}
+
+.wheel-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.wheel-result {
+  width: 100%;
+  max-width: 520px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 12px 14px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.wheel-result-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: var(--text-dark);
+  margin: 6px 0;
+}
+
+.wheel-result-winner {
+  margin-top: 8px;
+  text-align: center;
+  font-weight: 900;
+  color: var(--primary-dark);
+}
+
+.wheel-footer-note {
+  margin-top: 12px;
+  font-size: 12px;
+  color: var(--text-light);
+  font-weight: 700;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .wheel-row {
+    grid-template-columns: 1fr;
+  }
+  .wheel-slot-box {
+    width: 96px;
+    height: 120px;
+    font-size: 48px;
+  }
+  .wheel-card-back {
+    width: 74px;
+    height: 104px;
+  }
+}

@@ -1,0 +1,1328 @@
+{
+  "L1": [
+    {
+      "variantId": "P01",
+      "exitRow": 2,
+      "cars": [
+        {
+          "id": 0,
+          "row": 2,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#e74c3c",
+          "isTarget": true
+        },
+        {
+          "id": 1,
+          "row": 3,
+          "col": 1,
+          "length": 2,
+          "orientation": "V",
+          "color": "#3498db"
+        },
+        {
+          "id": 2,
+          "row": 5,
+          "col": 2,
+          "length": 2,
+          "orientation": "H",
+          "color": "#f39c12"
+        },
+        {
+          "id": 3,
+          "row": 1,
+          "col": 2,
+          "length": 2,
+          "orientation": "H",
+          "color": "#2ecc71"
+        },
+        {
+          "id": 4,
+          "row": 0,
+          "col": 4,
+          "length": 2,
+          "orientation": "H",
+          "color": "#9b59b6"
+        },
+        {
+          "id": 5,
+          "row": 2,
+          "col": 4,
+          "length": 2,
+          "orientation": "V",
+          "color": "#1abc9c"
+        },
+        {
+          "id": 6,
+          "row": 3,
+          "col": 2,
+          "length": 2,
+          "orientation": "H",
+          "color": "#e67e22"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 5,
+          "length": 3,
+          "orientation": "V",
+          "color": "#34495e"
+        }
+      ],
+      "minMoves": 7
+    },
+    {
+      "variantId": "P02",
+      "exitRow": 2,
+      "cars": [
+        {
+          "id": 0,
+          "row": 2,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#e74c3c",
+          "isTarget": true
+        },
+        {
+          "id": 1,
+          "row": 0,
+          "col": 1,
+          "length": 2,
+          "orientation": "V",
+          "color": "#3498db"
+        },
+        {
+          "id": 2,
+          "row": 5,
+          "col": 2,
+          "length": 3,
+          "orientation": "H",
+          "color": "#f39c12"
+        },
+        {
+          "id": 3,
+          "row": 3,
+          "col": 2,
+          "length": 2,
+          "orientation": "H",
+          "color": "#2ecc71"
+        },
+        {
+          "id": 4,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "orientation": "V",
+          "color": "#9b59b6"
+        },
+        {
+          "id": 5,
+          "row": 1,
+          "col": 3,
+          "length": 2,
+          "orientation": "V",
+          "color": "#1abc9c"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 4,
+          "length": 2,
+          "orientation": "V",
+          "color": "#e67e22"
+        },
+        {
+          "id": 7,
+          "row": 4,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#34495e"
+        }
+      ],
+      "minMoves": 7
+    },
+    {
+      "variantId": "P03",
+      "exitRow": 2,
+      "cars": [
+        {
+          "id": 0,
+          "row": 2,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#e74c3c",
+          "isTarget": true
+        },
+        {
+          "id": 1,
+          "row": 5,
+          "col": 2,
+          "length": 3,
+          "orientation": "H",
+          "color": "#3498db"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 5,
+          "length": 2,
+          "orientation": "V",
+          "color": "#f39c12"
+        },
+        {
+          "id": 3,
+          "row": 5,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#2ecc71"
+        },
+        {
+          "id": 4,
+          "row": 0,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#9b59b6"
+        },
+        {
+          "id": 5,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "orientation": "H",
+          "color": "#1abc9c"
+        },
+        {
+          "id": 6,
+          "row": 3,
+          "col": 3,
+          "length": 2,
+          "orientation": "V",
+          "color": "#e67e22"
+        },
+        {
+          "id": 7,
+          "row": 2,
+          "col": 4,
+          "length": 2,
+          "orientation": "V",
+          "color": "#34495e"
+        }
+      ],
+      "minMoves": 7
+    },
+    {
+      "variantId": "P04",
+      "exitRow": 2,
+      "cars": [
+        {
+          "id": 0,
+          "row": 2,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#e74c3c",
+          "isTarget": true
+        },
+        {
+          "id": 1,
+          "row": 4,
+          "col": 2,
+          "length": 2,
+          "orientation": "V",
+          "color": "#3498db"
+        },
+        {
+          "id": 2,
+          "row": 2,
+          "col": 5,
+          "length": 3,
+          "orientation": "V",
+          "color": "#f39c12"
+        },
+        {
+          "id": 3,
+          "row": 1,
+          "col": 4,
+          "length": 2,
+          "orientation": "V",
+          "color": "#2ecc71"
+        },
+        {
+          "id": 4,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "orientation": "V",
+          "color": "#9b59b6"
+        },
+        {
+          "id": 5,
+          "row": 0,
+          "col": 2,
+          "length": 2,
+          "orientation": "V",
+          "color": "#1abc9c"
+        },
+        {
+          "id": 6,
+          "row": 1,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#e67e22"
+        },
+        {
+          "id": 7,
+          "row": 5,
+          "col": 3,
+          "length": 2,
+          "orientation": "H",
+          "color": "#34495e"
+        }
+      ],
+      "minMoves": 6
+    },
+    {
+      "variantId": "P05",
+      "exitRow": 2,
+      "cars": [
+        {
+          "id": 0,
+          "row": 2,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#e74c3c",
+          "isTarget": true
+        },
+        {
+          "id": 1,
+          "row": 3,
+          "col": 2,
+          "length": 2,
+          "orientation": "H",
+          "color": "#3498db"
+        },
+        {
+          "id": 2,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "orientation": "H",
+          "color": "#f39c12"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "orientation": "H",
+          "color": "#2ecc71"
+        },
+        {
+          "id": 4,
+          "row": 1,
+          "col": 4,
+          "length": 2,
+          "orientation": "V",
+          "color": "#9b59b6"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 5,
+          "length": 2,
+          "orientation": "V",
+          "color": "#1abc9c"
+        },
+        {
+          "id": 6,
+          "row": 1,
+          "col": 3,
+          "length": 2,
+          "orientation": "V",
+          "color": "#e67e22"
+        },
+        {
+          "id": 7,
+          "row": 5,
+          "col": 3,
+          "length": 2,
+          "orientation": "H",
+          "color": "#34495e"
+        }
+      ],
+      "minMoves": 8
+    }
+  ],
+  "L2": [
+    {
+      "variantId": "P01",
+      "exitRow": 2,
+      "cars": [
+        {
+          "id": 0,
+          "row": 2,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#e74c3c",
+          "isTarget": true
+        },
+        {
+          "id": 1,
+          "row": 4,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#3498db"
+        },
+        {
+          "id": 2,
+          "row": 2,
+          "col": 3,
+          "length": 2,
+          "orientation": "V",
+          "color": "#f39c12"
+        },
+        {
+          "id": 3,
+          "row": 1,
+          "col": 4,
+          "length": 2,
+          "orientation": "H",
+          "color": "#2ecc71"
+        },
+        {
+          "id": 4,
+          "row": 2,
+          "col": 5,
+          "length": 3,
+          "orientation": "V",
+          "color": "#9b59b6"
+        },
+        {
+          "id": 5,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "orientation": "V",
+          "color": "#1abc9c"
+        },
+        {
+          "id": 6,
+          "row": 5,
+          "col": 2,
+          "length": 3,
+          "orientation": "H",
+          "color": "#e67e22"
+        },
+        {
+          "id": 7,
+          "row": 4,
+          "col": 2,
+          "length": 2,
+          "orientation": "H",
+          "color": "#34495e"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 2,
+          "length": 2,
+          "orientation": "V",
+          "color": "#c0392b"
+        },
+        {
+          "id": 9,
+          "row": 0,
+          "col": 1,
+          "length": 2,
+          "orientation": "V",
+          "color": "#16a085"
+        }
+      ],
+      "minMoves": 11
+    },
+    {
+      "variantId": "P02",
+      "exitRow": 2,
+      "cars": [
+        {
+          "id": 0,
+          "row": 2,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#e74c3c",
+          "isTarget": true
+        },
+        {
+          "id": 1,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "orientation": "H",
+          "color": "#3498db"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 5,
+          "length": 3,
+          "orientation": "V",
+          "color": "#f39c12"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "orientation": "V",
+          "color": "#2ecc71"
+        },
+        {
+          "id": 4,
+          "row": 2,
+          "col": 3,
+          "length": 2,
+          "orientation": "V",
+          "color": "#9b59b6"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 1,
+          "length": 2,
+          "orientation": "V",
+          "color": "#1abc9c"
+        },
+        {
+          "id": 6,
+          "row": 1,
+          "col": 2,
+          "length": 2,
+          "orientation": "V",
+          "color": "#e67e22"
+        },
+        {
+          "id": 7,
+          "row": 0,
+          "col": 2,
+          "length": 2,
+          "orientation": "H",
+          "color": "#34495e"
+        },
+        {
+          "id": 8,
+          "row": 0,
+          "col": 0,
+          "length": 2,
+          "orientation": "V",
+          "color": "#c0392b"
+        },
+        {
+          "id": 9,
+          "row": 5,
+          "col": 2,
+          "length": 2,
+          "orientation": "H",
+          "color": "#16a085"
+        }
+      ],
+      "minMoves": 18
+    },
+    {
+      "variantId": "P03",
+      "exitRow": 2,
+      "cars": [
+        {
+          "id": 0,
+          "row": 2,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#e74c3c",
+          "isTarget": true
+        },
+        {
+          "id": 1,
+          "row": 1,
+          "col": 3,
+          "length": 3,
+          "orientation": "V",
+          "color": "#3498db"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 5,
+          "length": 2,
+          "orientation": "V",
+          "color": "#f39c12"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "col": 4,
+          "length": 2,
+          "orientation": "H",
+          "color": "#2ecc71"
+        },
+        {
+          "id": 4,
+          "row": 4,
+          "col": 5,
+          "length": 2,
+          "orientation": "V",
+          "color": "#9b59b6"
+        },
+        {
+          "id": 5,
+          "row": 3,
+          "col": 2,
+          "length": 2,
+          "orientation": "V",
+          "color": "#1abc9c"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 1,
+          "length": 2,
+          "orientation": "H",
+          "color": "#e67e22"
+        },
+        {
+          "id": 7,
+          "row": 4,
+          "col": 0,
+          "length": 2,
+          "orientation": "V",
+          "color": "#34495e"
+        },
+        {
+          "id": 8,
+          "row": 5,
+          "col": 1,
+          "length": 3,
+          "orientation": "H",
+          "color": "#c0392b"
+        },
+        {
+          "id": 9,
+          "row": 1,
+          "col": 1,
+          "length": 2,
+          "orientation": "H",
+          "color": "#16a085"
+        }
+      ],
+      "minMoves": 10
+    },
+    {
+      "variantId": "P04",
+      "exitRow": 2,
+      "cars": [
+        {
+          "id": 0,
+          "row": 2,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#e74c3c",
+          "isTarget": true
+        },
+        {
+          "id": 1,
+          "row": 1,
+          "col": 2,
+          "length": 3,
+          "orientation": "V",
+          "color": "#3498db"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "orientation": "H",
+          "color": "#f39c12"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "col": 3,
+          "length": 2,
+          "orientation": "V",
+          "color": "#2ecc71"
+        },
+        {
+          "id": 4,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "orientation": "H",
+          "color": "#9b59b6"
+        },
+        {
+          "id": 5,
+          "row": 3,
+          "col": 3,
+          "length": 2,
+          "orientation": "H",
+          "color": "#1abc9c"
+        },
+        {
+          "id": 6,
+          "row": 0,
+          "col": 5,
+          "length": 2,
+          "orientation": "V",
+          "color": "#e67e22"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 4,
+          "length": 2,
+          "orientation": "V",
+          "color": "#34495e"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 5,
+          "length": 2,
+          "orientation": "V",
+          "color": "#c0392b"
+        },
+        {
+          "id": 9,
+          "row": 1,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#16a085"
+        }
+      ],
+      "minMoves": 14
+    },
+    {
+      "variantId": "P05",
+      "exitRow": 2,
+      "cars": [
+        {
+          "id": 0,
+          "row": 2,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#e74c3c",
+          "isTarget": true
+        },
+        {
+          "id": 1,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "orientation": "V",
+          "color": "#3498db"
+        },
+        {
+          "id": 2,
+          "row": 3,
+          "col": 2,
+          "length": 2,
+          "orientation": "H",
+          "color": "#f39c12"
+        },
+        {
+          "id": 3,
+          "row": 5,
+          "col": 1,
+          "length": 3,
+          "orientation": "H",
+          "color": "#2ecc71"
+        },
+        {
+          "id": 4,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "orientation": "H",
+          "color": "#9b59b6"
+        },
+        {
+          "id": 5,
+          "row": 0,
+          "col": 2,
+          "length": 2,
+          "orientation": "V",
+          "color": "#1abc9c"
+        },
+        {
+          "id": 6,
+          "row": 2,
+          "col": 5,
+          "length": 2,
+          "orientation": "V",
+          "color": "#e67e22"
+        },
+        {
+          "id": 7,
+          "row": 0,
+          "col": 0,
+          "length": 2,
+          "orientation": "V",
+          "color": "#34495e"
+        },
+        {
+          "id": 8,
+          "row": 3,
+          "col": 0,
+          "length": 2,
+          "orientation": "V",
+          "color": "#c0392b"
+        },
+        {
+          "id": 9,
+          "row": 0,
+          "col": 4,
+          "length": 2,
+          "orientation": "H",
+          "color": "#16a085"
+        }
+      ],
+      "minMoves": 14
+    }
+  ],
+  "L3": [
+    {
+      "variantId": "P01",
+      "exitRow": 2,
+      "cars": [
+        {
+          "id": 0,
+          "row": 2,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#e74c3c",
+          "isTarget": true
+        },
+        {
+          "id": 1,
+          "row": 5,
+          "col": 0,
+          "length": 3,
+          "orientation": "H",
+          "color": "#3498db"
+        },
+        {
+          "id": 2,
+          "row": 4,
+          "col": 1,
+          "length": 2,
+          "orientation": "H",
+          "color": "#f39c12"
+        },
+        {
+          "id": 3,
+          "row": 1,
+          "col": 4,
+          "length": 2,
+          "orientation": "V",
+          "color": "#2ecc71"
+        },
+        {
+          "id": 4,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "orientation": "H",
+          "color": "#9b59b6"
+        },
+        {
+          "id": 5,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "orientation": "H",
+          "color": "#1abc9c"
+        },
+        {
+          "id": 6,
+          "row": 3,
+          "col": 3,
+          "length": 2,
+          "orientation": "H",
+          "color": "#e67e22"
+        },
+        {
+          "id": 7,
+          "row": 0,
+          "col": 5,
+          "length": 2,
+          "orientation": "V",
+          "color": "#34495e"
+        },
+        {
+          "id": 8,
+          "row": 1,
+          "col": 3,
+          "length": 2,
+          "orientation": "V",
+          "color": "#c0392b"
+        },
+        {
+          "id": 9,
+          "row": 1,
+          "col": 2,
+          "length": 3,
+          "orientation": "V",
+          "color": "#16a085"
+        },
+        {
+          "id": 10,
+          "row": 2,
+          "col": 5,
+          "length": 2,
+          "orientation": "V",
+          "color": "#8e44ad"
+        },
+        {
+          "id": 11,
+          "row": 3,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#d35400"
+        }
+      ],
+      "minMoves": 17
+    },
+    {
+      "variantId": "P02",
+      "exitRow": 2,
+      "cars": [
+        {
+          "id": 0,
+          "row": 2,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#e74c3c",
+          "isTarget": true
+        },
+        {
+          "id": 1,
+          "row": 3,
+          "col": 2,
+          "length": 2,
+          "orientation": "V",
+          "color": "#3498db"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 5,
+          "length": 2,
+          "orientation": "V",
+          "color": "#f39c12"
+        },
+        {
+          "id": 3,
+          "row": 4,
+          "col": 4,
+          "length": 2,
+          "orientation": "H",
+          "color": "#2ecc71"
+        },
+        {
+          "id": 4,
+          "row": 1,
+          "col": 1,
+          "length": 2,
+          "orientation": "H",
+          "color": "#9b59b6"
+        },
+        {
+          "id": 5,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "orientation": "V",
+          "color": "#1abc9c"
+        },
+        {
+          "id": 6,
+          "row": 5,
+          "col": 2,
+          "length": 3,
+          "orientation": "H",
+          "color": "#e67e22"
+        },
+        {
+          "id": 7,
+          "row": 2,
+          "col": 3,
+          "length": 2,
+          "orientation": "V",
+          "color": "#34495e"
+        },
+        {
+          "id": 8,
+          "row": 3,
+          "col": 1,
+          "length": 3,
+          "orientation": "V",
+          "color": "#c0392b"
+        },
+        {
+          "id": 9,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "orientation": "V",
+          "color": "#16a085"
+        },
+        {
+          "id": 10,
+          "row": 0,
+          "col": 4,
+          "length": 2,
+          "orientation": "H",
+          "color": "#8e44ad"
+        },
+        {
+          "id": 11,
+          "row": 0,
+          "col": 0,
+          "length": 2,
+          "orientation": "V",
+          "color": "#d35400"
+        }
+      ],
+      "minMoves": 20
+    },
+    {
+      "variantId": "P03",
+      "exitRow": 2,
+      "cars": [
+        {
+          "id": 0,
+          "row": 2,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#e74c3c",
+          "isTarget": true
+        },
+        {
+          "id": 1,
+          "row": 1,
+          "col": 2,
+          "length": 3,
+          "orientation": "V",
+          "color": "#3498db"
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 5,
+          "length": 3,
+          "orientation": "V",
+          "color": "#f39c12"
+        },
+        {
+          "id": 3,
+          "row": 5,
+          "col": 2,
+          "length": 3,
+          "orientation": "H",
+          "color": "#2ecc71"
+        },
+        {
+          "id": 4,
+          "row": 4,
+          "col": 4,
+          "length": 2,
+          "orientation": "H",
+          "color": "#9b59b6"
+        },
+        {
+          "id": 5,
+          "row": 0,
+          "col": 4,
+          "length": 2,
+          "orientation": "H",
+          "color": "#1abc9c"
+        },
+        {
+          "id": 6,
+          "row": 2,
+          "col": 3,
+          "length": 2,
+          "orientation": "V",
+          "color": "#e67e22"
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#34495e"
+        },
+        {
+          "id": 8,
+          "row": 0,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#c0392b"
+        },
+        {
+          "id": 9,
+          "row": 1,
+          "col": 4,
+          "length": 2,
+          "orientation": "V",
+          "color": "#16a085"
+        },
+        {
+          "id": 10,
+          "row": 5,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#8e44ad"
+        },
+        {
+          "id": 11,
+          "row": 3,
+          "col": 0,
+          "length": 2,
+          "orientation": "V",
+          "color": "#d35400"
+        }
+      ],
+      "minMoves": 31
+    },
+    {
+      "variantId": "P04",
+      "exitRow": 2,
+      "cars": [
+        {
+          "id": 0,
+          "row": 2,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#e74c3c",
+          "isTarget": true
+        },
+        {
+          "id": 1,
+          "row": 4,
+          "col": 2,
+          "length": 2,
+          "orientation": "V",
+          "color": "#3498db"
+        },
+        {
+          "id": 2,
+          "row": 4,
+          "col": 3,
+          "length": 2,
+          "orientation": "V",
+          "color": "#f39c12"
+        },
+        {
+          "id": 3,
+          "row": 3,
+          "col": 0,
+          "length": 2,
+          "orientation": "V",
+          "color": "#2ecc71"
+        },
+        {
+          "id": 4,
+          "row": 4,
+          "col": 4,
+          "length": 2,
+          "orientation": "H",
+          "color": "#9b59b6"
+        },
+        {
+          "id": 5,
+          "row": 0,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#1abc9c"
+        },
+        {
+          "id": 6,
+          "row": 5,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#e67e22"
+        },
+        {
+          "id": 7,
+          "row": 3,
+          "col": 3,
+          "length": 2,
+          "orientation": "H",
+          "color": "#34495e"
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 2,
+          "length": 2,
+          "orientation": "V",
+          "color": "#c0392b"
+        },
+        {
+          "id": 9,
+          "row": 1,
+          "col": 3,
+          "length": 2,
+          "orientation": "H",
+          "color": "#16a085"
+        },
+        {
+          "id": 10,
+          "row": 0,
+          "col": 5,
+          "length": 3,
+          "orientation": "V",
+          "color": "#8e44ad"
+        },
+        {
+          "id": 11,
+          "row": 1,
+          "col": 1,
+          "length": 2,
+          "orientation": "H",
+          "color": "#d35400"
+        }
+      ],
+      "minMoves": 18
+    },
+    {
+      "variantId": "P05",
+      "exitRow": 2,
+      "cars": [
+        {
+          "id": 0,
+          "row": 2,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#e74c3c",
+          "isTarget": true
+        },
+        {
+          "id": 1,
+          "row": 3,
+          "col": 2,
+          "length": 2,
+          "orientation": "H",
+          "color": "#3498db"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#f39c12"
+        },
+        {
+          "id": 3,
+          "row": 4,
+          "col": 4,
+          "length": 2,
+          "orientation": "V",
+          "color": "#2ecc71"
+        },
+        {
+          "id": 4,
+          "row": 4,
+          "col": 0,
+          "length": 2,
+          "orientation": "V",
+          "color": "#9b59b6"
+        },
+        {
+          "id": 5,
+          "row": 3,
+          "col": 5,
+          "length": 3,
+          "orientation": "V",
+          "color": "#1abc9c"
+        },
+        {
+          "id": 6,
+          "row": 1,
+          "col": 5,
+          "length": 2,
+          "orientation": "V",
+          "color": "#e67e22"
+        },
+        {
+          "id": 7,
+          "row": 5,
+          "col": 1,
+          "length": 3,
+          "orientation": "H",
+          "color": "#34495e"
+        },
+        {
+          "id": 8,
+          "row": 3,
+          "col": 0,
+          "length": 2,
+          "orientation": "H",
+          "color": "#c0392b"
+        },
+        {
+          "id": 9,
+          "row": 0,
+          "col": 3,
+          "length": 2,
+          "orientation": "H",
+          "color": "#16a085"
+        },
+        {
+          "id": 10,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "orientation": "V",
+          "color": "#8e44ad"
+        },
+        {
+          "id": 11,
+          "row": 4,
+          "col": 1,
+          "length": 2,
+          "orientation": "H",
+          "color": "#d35400"
+        }
+      ],
+      "minMoves": 22
+    }
+  ]
+}

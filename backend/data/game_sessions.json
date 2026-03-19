@@ -1,0 +1,173 @@
+{
+  "game_sessions": [
+    {
+      "session_id": "16cde2b9-f353-4434-ae5c-c8abe3e0ca52",
+      "user_id": "SU563",
+      "game_type": "traffic_game",
+      "start_time": "2026-03-19T11:07:14.082262",
+      "end_time": "2026-03-19T11:07:14.402314",
+      "duration": 0,
+      "status": "completed"
+    },
+    {
+      "session_id": "0e68e5da-0c78-4613-85f3-c40b4f93bc0f",
+      "user_id": "SU563",
+      "game_type": "traffic_game",
+      "start_time": "2026-03-19T11:22:09.116078",
+      "end_time": "2026-03-19T11:22:09.436639",
+      "duration": 0,
+      "status": "completed"
+    },
+    {
+      "session_id": "52503949-e642-4832-8847-38b0a957eb86",
+      "user_id": "SU563",
+      "game_type": "wheel_game",
+      "start_time": "2026-03-19T11:23:09.634219",
+      "end_time": "2026-03-19T11:24:07.733190",
+      "duration": 58,
+      "status": "completed"
+    },
+    {
+      "session_id": "4bf6464e-0c2d-4b58-ac34-89fbc5604877",
+      "user_id": "SU563",
+      "game_type": "catch_me",
+      "start_time": "2026-03-19T11:24:29.276979",
+      "status": "active",
+      "questions": [
+        "card-set5-3.png",
+        "card-set6-5.png",
+        "card-set5-6.png",
+        "card-set8-3.png",
+        "card-set1-3.png",
+        "card-set2-6.png",
+        "card-set5-2.png",
+        "card-set8-5.png",
+        "card-set3-6.png",
+        "card-set1-1.png"
+      ],
+      "current_question_index": 0,
+      "score": 0,
+      "max_rounds": 10
+    },
+    {
+      "session_id": "1b9663fe-bec1-4c53-b7be-2a587555cdbf",
+      "user_id": "SU563",
+      "game_type": "catch_me",
+      "start_time": "2026-03-19T11:24:29.593201",
+      "status": "active",
+      "questions": [
+        "card-set7-3.png",
+        "card-set7-4.png",
+        "card-set5-1.png",
+        "card-set5-3.png",
+        "card-set8-1.png",
+        "card-set8-5.png",
+        "card-set7-1.png",
+        "card-set5-6.png",
+        "card-set1-3.png",
+        "card-set8-3.png"
+      ],
+      "current_question_index": 0,
+      "score": 0,
+      "max_rounds": 10
+    },
+    {
+      "session_id": "c2e3d604-7f03-42d8-a095-1c68b69156dd",
+      "user_id": "SU563",
+      "game_type": "wheel_game",
+      "start_time": "2026-03-19T11:24:33.688234",
+      "end_time": null,
+      "duration": null,
+      "status": "active"
+    },
+    {
+      "session_id": "ca332421-db70-4f5a-b3bf-6706ec40a695",
+      "user_id": "SU563",
+      "game_type": "wheel_game",
+      "start_time": "2026-03-19T11:30:58.887302",
+      "end_time": null,
+      "duration": null,
+      "status": "active"
+    },
+    {
+      "session_id": "95349c07-eb57-4ee3-b154-438f33323e16",
+      "user_id": "SU563",
+      "game_type": "wheel_game",
+      "start_time": "2026-03-19T11:33:13.259833",
+      "end_time": null,
+      "duration": null,
+      "status": "active"
+    },
+    {
+      "session_id": "c0b0ceab-dbfa-4a4b-8728-337a8a40332f",
+      "user_id": "SU563",
+      "game_type": "wheel_game",
+      "start_time": "2026-03-19T11:42:38.397761",
+      "end_time": null,
+      "duration": null,
+      "status": "active"
+    },
+    {
+      "session_id": "609775bb-fabf-4f68-a866-b24685bdbcbd",
+      "user_id": "SU563",
+      "game_type": "wheel_game",
+      "start_time": "2026-03-19T11:53:09.996044",
+      "end_time": null,
+      "duration": null,
+      "status": "active"
+    },
+    {
+      "session_id": "9b2ae381-ecc3-468e-bd1c-3fa88b560590",
+      "user_id": "SU563",
+      "game_type": "wheel_game",
+      "start_time": "2026-03-19T13:05:43.689133",
+      "end_time": "2026-03-19T13:09:46.072171",
+      "duration": 242,
+      "status": "completed"
+    },
+    {
+      "session_id": "0319ea4f-3bf6-4e69-bd6c-41b4a3e1a536",
+      "user_id": "SU563",
+      "game_type": "catch_me",
+      "start_time": "2026-03-19T13:10:14.876100",
+      "status": "active",
+      "questions": [
+        "card-set3-5.png",
+        "card-set6-2.png",
+        "card-set1-2.png",
+        "card-set1-1.png",
+        "card-set7-5.png",
+        "card-set7-6.png",
+        "card-set4-4.png",
+        "card-set7-3.png",
+        "card-set2-5.png",
+        "card-set2-3.png"
+      ],
+      "current_question_index": 0,
+      "score": 0,
+      "max_rounds": 10
+    },
+    {
+      "session_id": "1383df32-34e9-48e6-86e2-0c17f6d27371",
+      "user_id": "SU563",
+      "game_type": "catch_me",
+      "start_time": "2026-03-19T13:10:15.188135",
+      "status": "active",
+      "questions": [
+        "card-set4-2.png",
+        "card-set1-1.png",
+        "card-set4-4.png",
+        "card-set4-1.png",
+        "card-set4-6.png",
+        "card-set7-2.png",
+        "card-set6-4.png",
+        "card-set1-3.png",
+        "card-set3-5.png",
+        "card-set6-3.png"
+      ],
+      "current_question_index": 0,
+      "score": 0,
+      "max_rounds": 10
+    }
+  ]
+}

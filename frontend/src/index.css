@@ -1,0 +1,72 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px; /* เพิ่มขนาดพื้นฐานจาก 16px เป็น 18px */
+}
+
+:root {
+  --primary-dark: #0F2A1D;
+  --primary-light: #375534;
+  --primary-accent: #6B9071;
+  --background-light: #F7F9F7;
+  --text-dark: #0F2A1D;
+  --text-light: #888;
+  --card-icon-bg: #E3EED4;
+  --card-icon-color: #375534;
+}
+
+body {
+  font-family: 'Kanit', Arial, sans-serif;
+  background: var(--background-light);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Mobile First - Touch Friendly */
+button,
+input[type="button"],
+input[type="submit"] {
+  min-height: 44px;
+  /* Touch target minimum */
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Prevent zoom on input focus on iOS */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+textarea,
+select {
+  font-size: 16px;
+}
+
+/* Responsive Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}

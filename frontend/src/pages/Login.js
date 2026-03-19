@@ -17,7 +17,8 @@ function Login({ onLogin }) {
   useEffect(() => {
     const ping = async () => {
       try {
-        await fetch((process.env.REACT_APP_API_URL || 'http://localhost:5000/api') + '/health');
+        // await fetch((process.env.REACT_APP_API_URL || 'http://localhost:5000/api') + '/health');
+        await fetch((process.env.REACT_APP_API_URL || 'https://songkrandev.pythonanywhere.com/api') + '/health');        
         setServerOk(true);
       } catch {
         setServerOk(false);

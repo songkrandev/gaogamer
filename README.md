@@ -92,7 +92,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Server จะทำงานที่ `http://localhost:5000`
+# Server จะทำงานที่ 'https://songkrandev.pythonanywhere.com/api';
 
 ### 2. ตั้งค่า Frontend
 
